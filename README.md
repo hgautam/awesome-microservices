@@ -152,6 +152,7 @@ A curated list of Microservice Architecture related principles and technologies.
 - [Microdot](https://github.com/gigya/microdot) - Open source .NET microservices framework.
 - [Nancy](http://nancyfx.org/) - Lightweight web framework.
 - [Orleans](https://dotnet.github.io/orleans/) - Provides a straightforward approach to building distributed high-scale computing applications, without the need to learn and apply complex concurrency or other scaling patterns.
+- [Tye](https://github.com/dotnet/tye) - Tye is a tool that makes developing, testing, and deploying microservices and distributed applications easier. Project Tye includes a local orchestrator to make developing microservices easier and the ability to deploy microservices to Kubernetes with minimal configuration.
 
 ### D
 
@@ -216,6 +217,7 @@ A curated list of Microservice Architecture related principles and technologies.
 
 #### Java
 
+- [ActiveRPC](https://rpc.activej.io) - Lightweight and fast library for complex high-load distributed applications and Memcached-like solutions.
 - [Airlift](https://github.com/airlift/airlift) - Framework for building REST services in Java.
 - [Armeria](https://line.github.io/armeria/) - Open-source asynchronous HTTP/2 RPC/REST client/server library built on top of Java 8, Netty, Thrift and gRPC.
 - [Disruptor](https://github.com/LMAX-Exchange/disruptor) - High-performance inter-thread messaging library.
@@ -344,6 +346,7 @@ A curated list of Microservice Architecture related principles and technologies.
 - [Keepalived](http://www.keepalived.org/) - Simple and robust facilities for loadbalancing and high-availability to Linux system and Linux based infrastructures.
 - [Kong](https://getkong.org/) - Open source management layer for APIs.
 - [KrakenD](http://krakend.io/) - Open source ultra performance API Gateway.
+- [Kuma](https://kuma.io/) - Platform agnostic open source control plane for service mesh and microservices.
 - [Linkerd](https://linkerd.io/) - Resilient service mesh for cloud native apps.
 - [Neutrino](https://github.com/eBay/Neutrino) - Extensible software load balancer.
 - [OpenResty](http://openresty.org/) - Fast web application server built on top of Nginx.
@@ -708,6 +711,7 @@ A curated list of Microservice Architecture related principles and technologies.
 - [Canary Release](http://martinfowler.com/bliki/CanaryRelease.html) - Technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users before rolling it out to the entire infrastructure and making it available to everybody.
 - [CAP Theorem](http://blog.thislongrun.com/2015/03/the-cap-theorem-series.html) -  States that it is impossible for a distributed computer system to simultaneously provide all three of the following guarantees: Consistency, Availability and Partition tolerance.
 - [Formal Foundations of Serverless Computing](https://arxiv.org/pdf/1902.05870.pdf) :small_orange_diamond:<sup>PDF</sup> - The serverless computing abstraction exposes several low-level operational details that make it hard for programmers to write and reason about their code. This paper sheds light on this problem by presenting λ, an operational semantics of the essence of serverless computing.
+- [Introducing Domain-Oriented Microservice Architecture](https://eng.uber.com/microservice-architecture/) - Introduction to Uber Engineering generalized approach to microservice architectures, named “Domain-Oriented Microservice Architecture” (DOMA).
 - [Java Microservices: A Practical Guide](https://www.marcobehler.com/guides/java-microservices-a-practical-guide) - You can use this guide to understand what Java microservices are, how you architect and build them. Also: A look at Java microservice libraries & common questions.
 - [Microservice Architecture](http://martinfowler.com/articles/microservices.html) - Particular way of designing software applications as suites of independently deployable services.
 - [Microservices – Please, don’t](http://basho.com/posts/technical/microservices-please-dont/) - Critical advice about some problems regarding a microservices approach.
