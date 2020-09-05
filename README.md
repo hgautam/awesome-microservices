@@ -56,6 +56,7 @@ A curated list of Microservice Architecture related principles and technologies.
   - [Data Formats](#data-formats)
   - [Vocabularies](#vocabularies)
   - [Unicode](#unicode)
+- [Organization Design / Team Dynamics](#organization-design--team-dynamics)
 - [Real Life Stories](#real-life-stories)
 - [Enterprise & Verticals](#enterprise--verticals)
 - [Theory](#theory)
@@ -350,6 +351,7 @@ A curated list of Microservice Architecture related principles and technologies.
 - [Linkerd](https://linkerd.io/) - Resilient service mesh for cloud native apps.
 - [Neutrino](https://github.com/eBay/Neutrino) - Extensible software load balancer.
 - [OpenResty](http://openresty.org/) - Fast web application server built on top of Nginx.
+- [Open Service Mesh](https://openservicemesh.io/) - Lightweight and extensible cloud native service mesh.
 - [Otoroshi](https://www.otoroshi.io/) - Modern HTTP reverse proxy with lightweight API management.
 - [Skipper](https://github.com/zalando/skipper) - HTTP router useful for decoupling routing from service logic.
 - [Spring Cloud Gateway](https://cloud.spring.io/spring-cloud-gateway/) - API Gateway on top of Spring MVC. Aims to provide a simple, yet effective way to route to APIs.
@@ -481,15 +483,12 @@ A curated list of Microservice Architecture related principles and technologies.
 
 ### Resilience
 
+- [Awesome Chaos Engineering](https://github.com/dastergon/awesome-chaos-engineering) - A curated list of awesome chaos engineering resources.
 - [Hystrix](https://github.com/Netflix/Hystrix) - Latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.
 - [Pathod](http://pathod.net/) - Crafted malice for tormenting HTTP clients and servers.
 - [Raft Consensus](http://raftconsensus.github.io/) - Consensus algorithm that is designed to be easy to understand. It's equivalent to Paxos in fault-tolerance and performance.
 - [Resilience4j](https://github.com/resilience4j/resilience4j) - Fault tolerance library designed for Java8 and functional programming.
 - [Resilient HTTP](http://resilient-http.github.io/) - A smart HTTP client with super powers like fault tolerance, dynamic server discovery, auto balancing and reactive recovery, designed for distributed systems.
-- [Saboteur](https://github.com/tomakehurst/saboteur) - Causing deliberate network mayhem for better resilience.
-- [Semian](https://github.com/Shopify/semian) - Resiliency toolkit for Ruby for failing fast.
-- [Simian Army](https://github.com/Netflix/SimianArmy) - Suite of tools for keeping your cloud operating in top form. Chaos Monkey, the first member, is a resiliency tool that helps ensure that your applications can tolerate random instance failures.
-- [Toxiproxy](https://github.com/shopify/toxiproxy) - TCP proxy to simulate network and system conditions for chaos and resiliency testing.
 
 ### Security
 
@@ -678,6 +677,12 @@ A curated list of Microservice Architecture related principles and technologies.
 - [UNIV8](http://www.unicode.org/versions/Unicode8.0.0/) - The Unicode Consortium. The Unicode Standard, Version 8.0.0, (Mountain View, CA: The Unicode Consortium, 2015. ISBN 978-1-936213-10-8).
 - [RFC3629](https://tools.ietf.org/html/rfc3629) - UTF-8, a transformation format of ISO 10646.
 
+## Organization Design / Team Dynamics
+
+- [How Do Committees Invent?](http://www.melconway.com/Home/pdf/committees.pdf) :small_orange_diamond:<sup>PDF</sup> - Melvin E. Conway, Datamation magazine 1968. The original article defining Conway's Law.
+- [Service per Team](https://microservices.io/patterns/decomposition/service-per-team.html) - Each team is responsible for one or more business functions (e.g. business capabilities). A team owns a code base consisting of one or more modules. Its code base is sized so as to not exceed the cognitive capacity of team. The team deploys its code as one or more services. A team should have exactly one service unless there is a proven need to have multiple services.
+- [Start with Team Cognitive Load - Team Topologies](https://www.youtube.com/watch?v=haejb5rzKsM) :small_red_triangle:<sup>YT</sup> - DOES19 London. The "monoliths vs microservices" debate often focuses on technological aspects, ignoring strategy and team dynamics. Instead of technology, smart-thinking organizations are beginning with team cognitive load as the guiding principle for modern software. In this talk, we explain how and why, illustrated by real case studies.
+
 ## Real Life Stories
 
 - [Clean microservice architecture](http://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html)
@@ -728,12 +733,12 @@ A curated list of Microservice Architecture related principles and technologies.
 
 ### Talks
 
-- [10 Tips For Failing Badly at Microservices](https://www.youtube.com/watch?v=X0tjziAQfNQ) - A presentation at Voxxed Days by David Schmitz.
+- [10 Tips For Failing Badly at Microservices](https://www.youtube.com/watch?v=X0tjziAQfNQ) :small_red_triangle:<sup>YT</sup> - A presentation at Voxxed Days by David Schmitz.
 - [Bla Bla Microservices Bla Bla](http://jonasboner.com/bla-bla-microservices-bla-bla/) - A talk at the O’Reilly Software Architecture Conference, April 2016.
-- [Challenges in Implementing MicroServices](https://www.youtube.com/watch?v=yPf5MfOZPY0) - A presentation at GOTO 2015 by Fred George.
-- [Mastering Chaos - A Netflix Guide to Microservices](https://www.youtube.com/watch?v=CZ3wIuvmHeM) - A presentation at QCon 2016 by Josh Evans.
-- [Microservices](https://www.youtube.com/watch?v=wgdBVIX9ifA) - A presentation at GOTO Berlin 2014 by Martin Fowler.
-- [Principles Of Microservices](https://www.youtube.com/watch?v=PFQnNFe27kU) - A presentation at Devoxx Belgium by Sam Newman.
+- [Challenges in Implementing MicroServices](https://www.youtube.com/watch?v=yPf5MfOZPY0) :small_red_triangle:<sup>YT</sup> - A presentation at GOTO 2015 by Fred George.
+- [Mastering Chaos - A Netflix Guide to Microservices](https://www.youtube.com/watch?v=CZ3wIuvmHeM) :small_red_triangle:<sup>YT</sup> - A presentation at QCon 2016 by Josh Evans.
+- [Microservices](https://www.youtube.com/watch?v=wgdBVIX9ifA) :small_red_triangle:<sup>YT</sup> - A presentation at GOTO Berlin 2014 by Martin Fowler.
+- [Principles Of Microservices](https://www.youtube.com/watch?v=PFQnNFe27kU) :small_red_triangle:<sup>YT</sup> - A presentation at Devoxx Belgium by Sam Newman.
 
 ### Tutorials
 
