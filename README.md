@@ -90,7 +90,6 @@ A curated list of Microservice Architecture related principles and technologies.
 
 - [Akka](http://akka.io/) - Toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM.
 - [Axon ![c]](https://axoniq.io/) - An end-to-end development and infrastructure platform for easy development and running of any DDD, CQRS and Event Sourcing applications on JVM.
-- [Baratine](http://baratine.io/) - Platform for building a network of loosely-coupled POJO microservices.
 - [Eclipse Microprofile](https://microprofile.io/) - An open forum to optimize Enterprise Java for a microservices architecture by innovating across multiple implementations and collaborating on common areas of interest with a goal of standardization.
 - [Erlang/OTP](https://github.com/erlang/otp) - Programming language used to build massively scalable soft real-time systems with requirements on high availability.
 - [Finagle](http://twitter.github.io/finagle) - Extensible RPC system for the JVM, used to construct high-concurrency servers.
@@ -145,6 +144,7 @@ A curated list of Microservice Architecture related principles and technologies.
 - [Poco](http://pocoproject.org/) - C++ class libraries for building network-based applications and servers.
 - [Restbed](https://github.com/Corvusoft/restbed) - Brings asynchronous RESTful functionality to C++11 applications.
 - [Served](https://github.com/datasift/served) - C++ library for building high-performance RESTful web servers.
+- [Sogou Workflow](https://github.com/sogou/workflow/blob/master/README_en.md) - Enterprise-grade programming engine aimed to satisfy most of the backend development requirements.
 - [ULib](https://github.com/stefanocasazza/ULib) - Highly optimized class framework for writing C++ applications.
 
 ### CSharp
@@ -175,11 +175,13 @@ A curated list of Microservice Architecture related principles and technologies.
 
 - [Echo](https://echo.labstack.com/) - Fast and unfancy HTTP server framework for Go. Up to 10x faster than the rest.
 - [Enduro/X ASG](https://github.com/endurox-dev/endurox-go) - Enduro/X bindings for Go allows to effectively write XATMI based microservices in Go language. Uses Unix kernel IPC (queues) for fast process communications.
-- [Gin](https://github.com/gin-gonic/gin) - Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance - up to 40 times faster.
+- [Fiber](https://github.com/gofiber/fiber) - Express inspired web framework built on top of Fasthttp, the fastest HTTP engine for Go. Designed to ease things up for fast development with zero memory allocation and performance in mind.
+- [Gin](https://github.com/gin-gonic/gin) - Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance, up to 40 times faster.
 - [Gizmo](https://github.com/nytimes/gizmo) - Microservices toolkit.
 - [Goa](https://github.com/goadesign/goa) - Design-based HTTP microservices in Go.
 - [Gocraft](https://github.com/gocraft/web) - A toolkit for building web apps. Includes routing, middleware stacks, logging and monitoring.
 - [Goji](https://goji.io/) - Minimalistic and flexible request multiplexer for Go.
+- [Go Chassis](https://github.com/go-chassis/go-chassis) - A framework for rapid development of microservices in Go that is easy to integrate with some cloud ecosystems.
 - [Go kit](https://github.com/go-kit/kit) - Distributed programming toolkit for microservices in the modern enterprise.
 - [go-api-boilerplate](https://github.com/vardius/go-api-boilerplate) - Go Server/API boilerplate using best practices, DDD, CQRS, ES, gRPC
 - [Go-micro](https://github.com/micro/go-micro) - A distributed systems development framework.
@@ -278,13 +280,14 @@ A curated list of Microservice Architecture related principles and technologies.
 ### Perl
 
 - [Cro](http://cro.services/) - Libraries for creating reactive distributed systems using Perl 6.
-- [Mojolicious](http://mojolicio.us/) - Next generation web framework for Perl.
+- [Mojolicious](https://mojolicious.org/) - Next generation web framework for Perl.
 
 ### PHP
 
 - [API Platform](https://api-platform.com/) - API-first web framework on top of Symfony with JSON-LD, Schema.org and Hydra support.
 - [Fat-Free](https://fatfreeframework.com/) - A powerful yet easy-to-use PHP micro-framework.
 - [Flight](https://github.com/mikecao/flight) - An extensible micro-framework.
+- [Hyperf](https://github.com/hyperf/hyperf) - Hyperf is an extremely performant and flexible PHP CLI framework based on Swoole 4.5+, powered by the state-of-the-art coroutine server and a large number of battle-tested components.
 - [Lumen](https://lumen.laravel.com/) - Stunningly fast micro-framework.
 - [Phalcon](https://phalconphp.com/) - Full-stack PHP framework delivered as a C-extension.
 - [Slim](http://www.slimframework.com/) - Micro-framework that helps you quickly write simple yet powerful web applications and APIs.
@@ -693,7 +696,6 @@ A curated list of Microservice Architecture related principles and technologies.
 - [Microservices: lessons from the frontline](https://www.thoughtworks.com/insights/blog/microservices-lessons-frontline)
 - [Monolith first](http://martinfowler.com/bliki/MonolithFirst.html)
 - [Scaling microservices at Gilt with Scala, Docker and AWS](http://www.infoq.com/news/2015/04/scaling-microservices-gilt)
-- [From a Monolithic Big Data System to a Microservices Event-Driven Architecture: Challenges and Lessons Learned](https://www.researchgate.net/publication/341822188_From_a_Monolithic_Big_Data_System_to_a_Microservices_Event-Driven_Architecture)
 
 ## Enterprise & Verticals
 
@@ -753,6 +755,7 @@ A curated list of Microservice Architecture related principles and technologies.
 ### Books
 
 - [Building Microservices](https://www.nginx.com/wp-content/uploads/2015/01/Building_Microservices_Nginx.pdf) :small_orange_diamond:<sup>PDF</sup> - Building Microservices: Designing Fine-grained Systems. Sam Newman. Preview Edition.
+- [Cloud Native Spring in Action](https://www.manning.com/books/cloud-native-spring-in-action) - A hands-on guide to cloud native application development using Spring Boot, Spring Cloud, Docker, and Kubernetes.
 - [Istio in Action](https://www.manning.com/books/istio-in-action) - Teaches you how to implement a full-featured Istio-based service mesh to manage a microservices application.
 - [Microservice Architecture: Aligning Principles, Practices, and Culture](http://shop.oreilly.com/product/0636920050308.do) - Practical advice for the strategy and design of Microservices.
 - [Microservices in Action](https://www.manning.com/books/microservices-in-action) - A practical book about building and deploying microservice-based applications.
