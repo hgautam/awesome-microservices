@@ -57,13 +57,9 @@ A curated list of Microservice Architecture related principles and technologies.
   - [Vocabularies](#vocabularies)
   - [Unicode](#unicode)
 - [Organization Design / Team Dynamics](#organization-design--team-dynamics)
-- [Real Life Stories](#real-life-stories)
 - [Enterprise & Verticals](#enterprise--verticals)
 - [Theory](#theory)
   - [Articles & Papers](#articles--papers)
-  - [Talks](#talks)
-  - [Tutorials](#tutorials)
-  - [Books](#books)
   - [Sites & Organizations](#sites--organizations)
 - [Emerging Technologies](#emerging-technologies)
 - [License](#license)
@@ -71,25 +67,25 @@ A curated list of Microservice Architecture related principles and technologies.
 
 ## Platforms
 
-- [Ballerina](https://ballerina.io) - Cloud native programming language.
-- [Dapr](https://dapr.io) - Open source runtime for writing highly performant microservices using any programming language.
 - [Express Serverless](https://www.express-serverless.io/) - An open source, Kubernetes-native, microservices and serverless platform.
 - [Hook.io](https://hook.io) - Open source provider of microservice and webhook hosting.
 - [Jolie](https://jolie-lang.org) - Open source microservice-oriented programming language.
 - [KintoHub ![c]](https://www.kintohub.com) - Microservice package manager empowering developers to easily build and share cloud ready features.
 - [Lightbend ![c]](https://www.lightbend.com/) - Platform for building scalable reactive systems on the JVM.
 - [M3O](https://micro.mu/) - A serverless platform for microservices development.
-- [Mantl](https://github.com/mantl/mantl) - Platform for rapidly deploying globally distributed services.
 - [Netflix OSS](https://netflix.github.io/) - Netflix open source software ecosystem.
 - [OpenWhisk](http://openwhisk.org/) - Serverless, open source cloud platform that executes functions in response to events at any scale.
 - [Pulumi](https://pulumi.io/) - SDK for cloud native infrastructure as code. Use your favorite language to preview and manage updates to your apps and infrastructure, and continuously deploy to any cloud (no YAML required).
 - [STUPS](https://stups.io/) - A set of tools and components by Zalando to provide a convenient and audit-compliant PaaS for multiple autonomous teams on top of AWS.
+- [Triton](https://github.com/joyent/triton) - Open-source cloud management platform that delivers next generation, container-based, service-oriented infrastructure across one or more data centers.
 - [VAMP ![c]](http://vamp.io/) - Build, deploy and manage microservices with power and ease.
 
 ## Frameworks / Runtimes
 
 - [Akka](http://akka.io/) - Toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM.
 - [Axon ![c]](https://axoniq.io/) - An end-to-end development and infrastructure platform for easy development and running of any DDD, CQRS and Event Sourcing applications on JVM.
+- [Ballerina](https://ballerina.io) - Cloud native programming language.
+- [Dapr](https://dapr.io) - Open source runtime for writing highly performant microservices using any programming language.
 - [Eclipse Microprofile](https://microprofile.io/) - An open forum to optimize Enterprise Java for a microservices architecture by innovating across multiple implementations and collaborating on common areas of interest with a goal of standardization.
 - [Erlang/OTP](https://github.com/erlang/otp) - Programming language used to build massively scalable soft real-time systems with requirements on high availability.
 - [Finagle](http://twitter.github.io/finagle) - Extensible RPC system for the JVM, used to construct high-concurrency servers.
@@ -108,7 +104,6 @@ A curated list of Microservice Architecture related principles and technologies.
 - [Orbit](https://github.com/orbit/orbit) - Modern framework for JVM languages that makes it easier to build and maintain distributed and scalable online services.
 - [SmallRye](https://smallrye.io/) - APIs and implementations tailored for cloud development, including Eclipse MicroProfile.
 - [Thorntail](https://thorntail.io/) - An innovative approach to packaging and running Java EE applications by packaging them with just enough of the server runtime to "java -jar" your application.
-- [Quasar](https://github.com/puniverse/quasar) - Fibers, channels and actors for the JVM.
 - [ScaleCube](https://github.com/scalecube/scalecube) - Toolkit for building reactive microservices for the JVM: low-latency, high-throughput, scalable and resilient.
 - [Vert.X](http://vertx.io/) - Toolkit for building reactive applications on the JVM.
 - [Vert.X Toolbox](https://github.com/vert-x3/vertx-microservices-toolbox) - A set of Vert.x components to build reactive microservice applications.
@@ -118,7 +113,6 @@ A curated list of Microservice Architecture related principles and technologies.
 
 ### Polyglot
 
-- [Apex](https://github.com/apex/apex) - Tool for deploying and managing AWS Lambda functions. With shims for languages not yet supported by Lambda, you can use Golang out of the box.
 - [CoAP](http://coap.technology/impls.html) - Constrained application protocol implementations.
 - [GRPC](http://www.grpc.io/) - A high performance, open source, general RPC framework that puts mobile and HTTP/2 first. Libraries in C, C++, Java, Go, Node.js, Python, Ruby, Objective-C, PHP and C#.
 - [Hprose](http://github.com/hprose) - A very newbility RPC Library, support 25+ languages now.
@@ -130,7 +124,6 @@ A curated list of Microservice Architecture related principles and technologies.
 - [Libslack](http://libslack.org/) -  Provides a generic agent oriented programming model, run time selection of locking strategies, functions that make writing daemons trivial and simplify the implementation of network servers and clients, &c.
 - [Lwan](http://lwan.ws/) - High-performance and scalable web server.
 - [Onion](https://github.com/davidmoreno/onion) - C library to create simple HTTP servers and web applications.
-- [RIBS2](https://github.com/Adaptv/ribs2) - Library which allows building high-performance internet serving systems.
 
 ### C++
 <!-- #c-1 anchor -->
@@ -191,14 +184,12 @@ A curated list of Microservice Architecture related principles and technologies.
 - [Kite](https://github.com/koding/kite) - Microservices framework in Go.
 - [KrakenD](https://github.com/devopsfaith/krakend) - Framework to build ultra performance API Gateways with middlewares.
 - [Libchan](https://github.com/docker/libchan) - Ultra-lightweight networking library which lets network services communicate in the same way that goroutines communicate using channels.
-- [Martini](https://github.com/go-martini/martini) - Martini is a powerful package for quickly writing modular web applications/services in Golang.
 - [Micro](https://github.com/micro/micro) - A distributed systems runtime for the cloud and beyond.
 - [Nano](https://github.com/pasztorpisti/nano) - A minimalistic, transport-agnostic and testing-friendly microservice framework.
 - [Negroni](https://github.com/codegangsta/negroni) - Idiomatic HTTP middleware for Golang.
 - [Neutrino](https://github.com/neutrinoapp/neutrino) - Realtime/REST backend service.
 - [RPCX](https://github.com/smallnest/rpcx) - A distributed RPC service framework based on NET/RPC like Alibaba Dubbo and Weibo Motan.
 - [Sleepy](https://github.com/dougblack/sleepy) - REST for go.
-- [Vamp-router](https://github.com/magneticio/vamp-router) - Service routing, load balancing and filtering application.
 
 ### Haskell
 
@@ -275,7 +266,6 @@ A curated list of Microservice Architecture related principles and technologies.
 - [Seneca](http://senecajs.org/) - A microservices toolkit for Node.js
 - [Serverless](https://github.com/serverless/serverless) - Build and maintain web, mobile and IoT applications running on AWS Lambda and API Gateway (formerly known as JAWS).
 - [Steriods Framework](https://github.com/99xt/steroidslibrary) - Steroids framework simplifies the development of microservices with Serverless using TypeScript by enabling the developer to emphasize more on business/domain logic rather than focusing too much on technical details.
-- [StdLib](https://stdlib.com/) - Standard library for microservices.
 
 ### Perl
 
@@ -301,6 +291,7 @@ A curated list of Microservice Architecture related principles and technologies.
 - [Bottle](https://bottlepy.org) - Fast, simple and lightweight WSGI micro web-framework for Python.
 - [Connexion](https://github.com/zalando/connexion) - Swagger/OpenAPI framework for Python on top of Flask with automatic endpoint validation and OAuth2 support.
 - [Falcon](https://falconframework.org/) - Bare-metal Python web API framework for building very fast app backends and microservices.
+- [FastAPI](https://fastapi.tiangolo.com/) - Modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
 - [Flask](http://flask.pocoo.org/) - Python framework for microservices based on Werkzeug and Jinja 2.
 - [Nameko](https://github.com/onefinestay/nameko) - Python framework for building microservices.
 - [Sanic](https://github.com/channelcat/sanic) - Sanic is a Flask-like Python 3.5+ web server that's written to go fast.
@@ -394,7 +385,6 @@ A curated list of Microservice Architecture related principles and technologies.
 
 ### Elasticity
 
-- [Galaxy](https://github.com/puniverse/galaxy) - Open source high-performance in-memory data-grid.
 - [Hazelcast](http://hazelcast.org/) - Open source in-memory data-grid. Allows you to distribute data and computation across servers, clusters and geographies, and to manage very large data sets or high data ingest rates. Mature technology.
 - [Helix](http://helix.apache.org/) - Generic cluster management framework used for the automatic management of partitioned, replicated and distributed resources hosted on a cluster of nodes.
 - [Ignite](http://ignite.apache.org/) - High-performance, integrated and distributed in-memory platform for computing and transacting on large-scale data sets in real-time, orders of magnitude faster than possible with traditional disk-based or flash technologies.
@@ -542,11 +532,9 @@ A curated list of Microservice Architecture related principles and technologies.
 - [Datomic](http://www.datomic.com/) - Fully transactional, cloud-ready, distributed database.
 - [Druid](http://druid.io/) - Fast column-oriented distributed data store.
 - [Elasticsearch](https://www.elastic.co/products/elasticsearch) - Open source distributed, scalable, and highly available search server.
-- [Elliptics](http://reverbrain.com/elliptics/) - Fault tolerant distributed key/value storage.
 - [Geode](http://geode.incubator.apache.org/) - Open source, distributed, in-memory database for scale-out applications.
 - [Infinispan](http://infinispan.org/) - Highly concurrent key/value datastore used for caching.
 - [InfluxDB](https://github.com/influxdata/influxdb) - Scalable datastore for metrics, events, and real-time analytics.
-- [Manta](https://www.joyent.com/manta) - Highly scalable, distributed object storage service with integrated compute.
 - [MemSQL ![c]](http://www.memsql.com/) - High-performance, in-memory database that combines the horizontal scalability of distributed systems with the familiarity of SQL.
 - [OpenTSDB](http://opentsdb.net) - Scalable and distributed time series database written on top of Apache HBase.
 - [Parquet](https://parquet.apache.org/) - Columnar storage format available to any project in the Hadoop ecosystem, regardless of the choice of data processing framework, data model or programming language.
@@ -686,23 +674,12 @@ A curated list of Microservice Architecture related principles and technologies.
 - [Service per Team](https://microservices.io/patterns/decomposition/service-per-team.html) - Each team is responsible for one or more business functions (e.g. business capabilities). A team owns a code base consisting of one or more modules. Its code base is sized so as to not exceed the cognitive capacity of team. The team deploys its code as one or more services. A team should have exactly one service unless there is a proven need to have multiple services.
 - [Start with Team Cognitive Load - Team Topologies](https://www.youtube.com/watch?v=haejb5rzKsM) :small_red_triangle:<sup>YT</sup> - DOES19 London. The "monoliths vs microservices" debate often focuses on technological aspects, ignoring strategy and team dynamics. Instead of technology, smart-thinking organizations are beginning with team cognitive load as the guiding principle for modern software. In this talk, we explain how and why, illustrated by real case studies.
 
-## Real Life Stories
-
-- [Clean microservice architecture](http://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html)
-- [Failing at microservices](https://rclayton.silvrback.com/failing-at-microservices)
-- [How to talk to your friends about microservices](https://blog.pivotal.io/labs/labs/how-to-talk-to-your-friends-about-microservices)
-- [How we build microservices at Karma](https://blog.yourkarma.com/building-microservices-at-karma)
-- [How we ended up with microservices at SoundCloud](http://philcalcado.com/2015/09/08/how_we_ended_up_with_microservices.html)
-- [Microservices: lessons from the frontline](https://www.thoughtworks.com/insights/blog/microservices-lessons-frontline)
-- [Monolith first](http://martinfowler.com/bliki/MonolithFirst.html)
-- [Scaling microservices at Gilt with Scala, Docker and AWS](http://www.infoq.com/news/2015/04/scaling-microservices-gilt)
-
 ## Enterprise & Verticals
 
 - [Commercetools ![c]](https://commercetools.com/) - Headless commerce platform.
+- [Elasticpath ![c]](https://www.elasticpath.com/) - E-commerce microservices.
 - [Flamingo](https://www.flamingo.me/) - Framework to build flexible and modern e-commerce applications.
 - [Interact ![c]](https://interact.io/) - CRM microservices for rapid delivery of tailored solutions.
-- [Moltin ![c]](https://moltin.com/) - E-commerce API for developers.
 - [Predix ![c]](https://predix.io/) - Industrial microservices platform.
 - [Skava ![c]](https://www.skava.com/) - Provides microservices for all the functions of your store, and the glue to hold them together.
 
@@ -732,48 +709,6 @@ A curated list of Microservice Architecture related principles and technologies.
 - [Testing Strategies in a Microservice Architecture](http://martinfowler.com/articles/microservice-testing/) - Approaches for managing the additional testing complexity of multiple independently deployable components.
 - [Your Server as a Function](http://monkey.org/~marius/funsrv.pdf) :small_orange_diamond:<sup>PDF</sup> - Describes three abstractions which combine to present a powerful programming model for building safe, modular, and efficient server software: Composable futures, services and filters.
 - [Microservices - The Journey So Far and Challenges Ahead](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8354433) :small_orange_diamond:<sup>PDF</sup> - Overview of the state of microservices in both industrial and academia.
-
-### Talks
-
-- [10 Tips For Failing Badly at Microservices](https://www.youtube.com/watch?v=X0tjziAQfNQ) :small_red_triangle:<sup>YT</sup> - A presentation at Voxxed Days by David Schmitz.
-- [Bla Bla Microservices Bla Bla](http://jonasboner.com/bla-bla-microservices-bla-bla/) - A talk at the O’Reilly Software Architecture Conference, April 2016.
-- [Challenges in Implementing MicroServices](https://www.youtube.com/watch?v=yPf5MfOZPY0) :small_red_triangle:<sup>YT</sup> - A presentation at GOTO 2015 by Fred George.
-- [Mastering Chaos - A Netflix Guide to Microservices](https://www.youtube.com/watch?v=CZ3wIuvmHeM) :small_red_triangle:<sup>YT</sup> - A presentation at QCon 2016 by Josh Evans.
-- [Microservices](https://www.youtube.com/watch?v=wgdBVIX9ifA) :small_red_triangle:<sup>YT</sup> - A presentation at GOTO Berlin 2014 by Martin Fowler.
-- [Principles Of Microservices](https://www.youtube.com/watch?v=PFQnNFe27kU) :small_red_triangle:<sup>YT</sup> - A presentation at Devoxx Belgium by Sam Newman.
-
-### Tutorials
-
-- [Developing a RESTful Microservice in Python](http://www.skybert.net/python/developing-a-restful-micro-service-in-python/) - A story of how an aging Java project was replaced with a microservice built with Python and Flask.
-- [Developing and Testing Microservices With Docker](http://mherman.org/blog/2017/04/18/developing-and-testing-microservices-with-docker) - An example of the processes involved in creating a simple Docker-packaged Node microservice.
-- [Microservices without the Servers](https://aws.amazon.com/blogs/compute/microservices-without-the-servers/) - Step by step demo-driven talk about serverless architecture.
-- Microservices in C#: [Part 1](http://insidethecpu.com/2015/07/17/microservices-in-c-part-1-building-and-testing/), [Part 2](http://insidethecpu.com/2015/07/31/microservices-in-c-part-2-consistent-message-delivery/), [Part 3](http://insidethecpu.com/2015/08/14/microservices-in-c-part-3-queue-pool-sizing/), [Part 4](http://insidethecpu.com/2015/08/28/microservices-in-c-part-4-scaling-out/), [Part 5](http://insidethecpu.com/2015/09/11/microservices-in-c-part-5-autoscaling/).
-- [Microservices with Python, RabbitMQ and Nameko](http://brunorocha.org/python/microservices-with-python-rabbitmq-and-nameko.html)
-- [Reactive Microservices](https://github.com/theiterators/reactive-microservices) - Project showcasing different microservice communication styles using Scala, Akka, Play and other tools from Scala ecosystem.
-- [Using Packer and Ansible to build immutable infrastructure](https://blog.codeship.com/packer-ansible/)
-
-### Books
-
-- [Building Microservices](https://www.nginx.com/wp-content/uploads/2015/01/Building_Microservices_Nginx.pdf) :small_orange_diamond:<sup>PDF</sup> - Building Microservices: Designing Fine-grained Systems. Sam Newman. Preview Edition.
-- [Cloud Native Spring in Action](https://www.manning.com/books/cloud-native-spring-in-action) - A hands-on guide to cloud native application development using Spring Boot, Spring Cloud, Docker, and Kubernetes.
-- [Istio in Action](https://www.manning.com/books/istio-in-action) - Teaches you how to implement a full-featured Istio-based service mesh to manage a microservices application.
-- [Microservice Architecture: Aligning Principles, Practices, and Culture](http://shop.oreilly.com/product/0636920050308.do) - Practical advice for the strategy and design of Microservices.
-- [Microservices in Action](https://www.manning.com/books/microservices-in-action) - A practical book about building and deploying microservice-based applications.
-- [Microservices in .NET Core](https://www.manning.com/books/microservices-in-net-core-second-edition) - A comprehensive guide to building microservice systems using the .NET stack.
-- [Microservice Patterns](https://www.manning.com/books/microservice-patterns) - Teaches how to build applications with the microservice architecture and how to refactor a monolithic application to a microservices.
-- [Microservices from Theory to Practice](http://www.redbooks.ibm.com/abstracts/sg248275.html?Open) - Microservices from Theory to Practice: Creating Applications in IBM Bluemix Using the Microservices Approach. IBM Redbooks publication.
-- [Migrating to Cloud Native Application Architectures](http://pivotal.io/platform/migrating-to-cloud-native-application-architectures-ebook) - This O’Reilly report defines the unique characteristics of cloud native application architectures such as microservices and twelve-factor applications.
-- [Pulsar in Action](https://www.manning.com/books/pulsar-in-action) - A practical book about developing microservice-based applications using Apache Pulsar by Manning Press.
-- [Testing Microservices with Mountebank](https://www.manning.com/books/testing-microservices-with-mountebank) - Provides a testing strategy using mountebank for service virtualization, promoting independent releases of Microservices
-- [The Art of Scalability](http://theartofscalability.com/) - The Art of Scalability: Scalable Web Architecture, Processes, and Organizations for the Modern Enterprise. Martin L. Abbott, Michael T. Fisher.
-- [The New Stack eBook Series](http://thenewstack.io/ebookseries/) - A Comprehensive Overview of the Docker and Container Ecosystem.
-  + Book 1: The Docker Container Ecosystem.
-  + Book 2: Applications & Microservices with Docker & Containers.
-  + Book 3: Automation & Orchestration with Docker & Containers.
-  + Book 4: Network, Security & Storage with Docker & Containers.
-  + Book 5: Monitoring & Management with Docker & Containers.
-- [The Tao of Microservices](https://www.manning.com/books/the-tao-of-microservices) - Teaches the path to understanding how to apply microservices architecture with your own real-world projects.
-- [Micro Frontends in Action](https://www.manning.com/books/micro-frontends-in-action) - A practical guide that teaches how to develop large software projects with multiple independent teams.
 
 ### Sites & Organizations
 
